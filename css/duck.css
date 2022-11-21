@@ -3,7 +3,7 @@
 *{margin:0; padding:0; box-sizing:border-box;}
 img{display:block; max-width:100%;}
 
-#layout	{max-width:1200px; margin:auto; border:2px solid red;}
+#layout	{max-width:1200px; margin:auto; }
 
 #header {width:100%; height:152px; border:none; display:block; position:relative; z-index:1;}
 
@@ -15,9 +15,9 @@ img{display:block; max-width:100%;}
 #footer {width:100%; height:199px; display:block; border:none;}
 
 /*메뉴판페이지*/
-#menus main {display:flex; flex-wrap:wrap; justify-content:space-around;}
+#menus main {display:flex; flex-wrap:wrap; justify-content:space-around; }
 
-#menus section{cursor:pointer; margin-bottom:20px; position:relative; overflow:hidden;}
+#menus section{cursor:pointer; margin-bottom:20px; position:relative; overflow:hidden; height:333px;}
 #menus div{position:absolute; width:100%; background:#e8521d; top:333px; padding:15px; color:white; transition:0.5s;}
 #menus section:hover div {top:70%;}
 #menus p {font-size:0.85rem;}
